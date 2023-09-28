@@ -1,0 +1,25 @@
+body{
+    background-image: url("imgs/dj-khaled-dancing.gif");
+    color:white;
+    background-color: black;
+}
+
+
+#khalad-fall{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: sticky;
+    top: 0px;
+    z-index: 0;
+}
+
+
+.main-background{
+    background-color: gray;
+    z-index: 20;
+    position: relative;
+    margin: 100px;
+    padding: 100px;
+}
