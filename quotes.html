@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJ Khaled Fan Site</title>
-    <link rel="stylesheet" href="main.css">
+    <link id='csslink' rel="stylesheet" href="main.css" />
+
+	<!-- Next is the JavaScript code that makes the "Switch Style" button work. -->
+   <script>
+	    function toggleCSS() {
+          // Obtains the <link> element that links to the css (by using its id).
+          var currentCSS = document.getElementById('csslink');
+
+          // Change the value of href attribute to change the css file.
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+  </script>
 </head>
 <body>
     <header>
