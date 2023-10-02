@@ -1,25 +1,124 @@
+:root{
+    --dj-blue: #2196f3;
+    --dj-yellow: #FFC107;
+    --dj-red: #FF5722;
+    --dj-green: #4caf50;
+    --dj-gold: #ffd700;
+    --dj-purple: #673ab7;
+    --dj-black: #000000;
+    --dj-white: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif
+}
+
 body{
     background-image: url("imgs/dj-khaled-dancing.gif");
-    color:white;
-    background-color: black;
+    background-attachment: fixed;
+    color: var(--dj-gold);
+    background-color: var(--dj-black);
+    width: auto;
+    margin: 0px;
 }
 
 
 #khalad-fall{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin:auto;
+    width: auto;
     position: sticky;
     top: 0px;
     z-index: 0;
 }
 
+#khalad-fall>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 25%;
+}
+
+#we-the-best{
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: var(--dj-black) 0px 0px 5px;
+    text-align: center;
+    font-size: 50pt;
+    position: relative;
+    z-index: -1;
+}
+
 
 .main-background{
-    background-color: gray;
     z-index: 20;
     position: relative;
-    margin: 100px;
+    margin: 0px;
     padding: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0) 0%,var(--dj-black)  10%,var(--dj-black) 100%);
+}
+
+.center-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav{
+    background-color: var(--dj-gold);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+
+a:link{
+    color: var(--dj-blue);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--dj-purple);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--dj-red);
+}
+
+header{
+    background-color: var(--dj-black);
+}
+
+footer{
+    background-color: var(--dj-purple);
+    text-align: center;
+}
+
+.border-img{
+    border-radius: 5px;
+    border-style:ridge;
+    border-width: 25px;
+    border-color: var(--dj-gold);
+}
+
+button{
+    background-color: var(--dj-black);
+    color: var(--dj-gold);
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 24px;
+    border-width: 5px;
+    border-color: var(--dj-gold);
+}
+
+button:hover{
+    color: var(--dj-red);
+    border-color: var(--dj-red);
+}
+
+
+li{
+    margin: 15px;
 }
