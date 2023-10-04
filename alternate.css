@@ -11,8 +11,8 @@ body {
   
   .main-background{
     z-index: 10;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
     padding: 10px;
     background-size: 50px;
     font-weight: bold;
